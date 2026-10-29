@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustPathWebService", "TrustPathWebService\TrustPathWebService.csproj", "{5E1C3F8E-512D-4EDD-831A-6E1768F76F0B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustPathWebService.Domain", "TrustPathWebService.Domain\TrustPathWebService.Domain.csproj", "{C7944111-2BA0-42A1-81DA-755020D2B883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustPathWebService.Infrastructure", "TrustPathWebService.Infrastructure\TrustPathWebService.Infrastructure.csproj", "{34F2547C-018D-4532-9DE4-D22E7FE22AF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustPathWebService.Persistance", "TrustPathWebService.Persistance\TrustPathWebService.Persistance.csproj", "{3417CD2B-888F-4A66-8C12-34B87B6E113A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustPathWebService.Repository", "TrustPathWebService.Repository\TrustPathWebService.Repository.csproj", "{FD1CF06B-3254-4C8B-95E2-DF00C30AA125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrustPathWebService.Service", "TrustPathWebService.Service\TrustPathWebService.Service.csproj", "{9132B315-25C2-43A9-9B62-252052D2423C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E1C3F8E-512D-4EDD-831A-6E1768F76F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1C3F8E-512D-4EDD-831A-6E1768F76F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1C3F8E-512D-4EDD-831A-6E1768F76F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1C3F8E-512D-4EDD-831A-6E1768F76F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7944111-2BA0-42A1-81DA-755020D2B883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7944111-2BA0-42A1-81DA-755020D2B883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7944111-2BA0-42A1-81DA-755020D2B883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7944111-2BA0-42A1-81DA-755020D2B883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34F2547C-018D-4532-9DE4-D22E7FE22AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F2547C-018D-4532-9DE4-D22E7FE22AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F2547C-018D-4532-9DE4-D22E7FE22AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F2547C-018D-4532-9DE4-D22E7FE22AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3417CD2B-888F-4A66-8C12-34B87B6E113A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3417CD2B-888F-4A66-8C12-34B87B6E113A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3417CD2B-888F-4A66-8C12-34B87B6E113A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3417CD2B-888F-4A66-8C12-34B87B6E113A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD1CF06B-3254-4C8B-95E2-DF00C30AA125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD1CF06B-3254-4C8B-95E2-DF00C30AA125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD1CF06B-3254-4C8B-95E2-DF00C30AA125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD1CF06B-3254-4C8B-95E2-DF00C30AA125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9132B315-25C2-43A9-9B62-252052D2423C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9132B315-25C2-43A9-9B62-252052D2423C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9132B315-25C2-43A9-9B62-252052D2423C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9132B315-25C2-43A9-9B62-252052D2423C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45EA8A62-EF49-4201-B10E-91E371367A72}
+	EndGlobalSection
+EndGlobal
